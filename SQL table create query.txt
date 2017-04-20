@@ -1,0 +1,24 @@
+USE [testLab]
+GO
+
+/****** Object:  Table [dbo].[tblContacts]    Script Date: 4/19/2017 11:37:11 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[tblContacts](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[fullName] [varchar](30) NULL,
+	[fullAddress] [varchar](60) NULL,
+	[phoneNumber] [varchar](15) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
