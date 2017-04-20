@@ -42,9 +42,9 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(360, 78);
+            this.btnAdd.Location = new System.Drawing.Point(388, 62);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(152, 23);
+            this.btnAdd.Size = new System.Drawing.Size(155, 23);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Add Contact";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -52,29 +52,29 @@
             // 
             // txtfullName
             // 
-            this.txtfullName.Location = new System.Drawing.Point(102, 26);
+            this.txtfullName.Location = new System.Drawing.Point(83, 10);
             this.txtfullName.Name = "txtfullName";
-            this.txtfullName.Size = new System.Drawing.Size(410, 20);
+            this.txtfullName.Size = new System.Drawing.Size(460, 20);
             this.txtfullName.TabIndex = 1;
             // 
             // txtfullAddress
             // 
-            this.txtfullAddress.Location = new System.Drawing.Point(102, 52);
+            this.txtfullAddress.Location = new System.Drawing.Point(83, 36);
             this.txtfullAddress.Name = "txtfullAddress";
-            this.txtfullAddress.Size = new System.Drawing.Size(410, 20);
+            this.txtfullAddress.Size = new System.Drawing.Size(460, 20);
             this.txtfullAddress.TabIndex = 2;
             // 
             // txtphoneNumber
             // 
-            this.txtphoneNumber.Location = new System.Drawing.Point(102, 78);
+            this.txtphoneNumber.Location = new System.Drawing.Point(83, 62);
             this.txtphoneNumber.Name = "txtphoneNumber";
-            this.txtphoneNumber.Size = new System.Drawing.Size(252, 20);
+            this.txtphoneNumber.Size = new System.Drawing.Size(272, 20);
             this.txtphoneNumber.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 29);
+            this.label1.Location = new System.Drawing.Point(9, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 4;
@@ -83,7 +83,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 55);
+            this.label2.Location = new System.Drawing.Point(9, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 5;
@@ -92,7 +92,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 81);
+            this.label3.Location = new System.Drawing.Point(9, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 13);
             this.label3.TabIndex = 6;
@@ -101,16 +101,16 @@
             // dgContact
             // 
             this.dgContact.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgContact.Location = new System.Drawing.Point(45, 165);
+            this.dgContact.Location = new System.Drawing.Point(12, 149);
             this.dgContact.Name = "dgContact";
-            this.dgContact.Size = new System.Drawing.Size(467, 269);
+            this.dgContact.Size = new System.Drawing.Size(531, 269);
             this.dgContact.TabIndex = 7;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(360, 107);
+            this.btnSearch.Location = new System.Drawing.Point(388, 91);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(152, 23);
+            this.btnSearch.Size = new System.Drawing.Size(155, 23);
             this.btnSearch.TabIndex = 8;
             this.btnSearch.Text = "Search by phone #";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 597);
+            this.ClientSize = new System.Drawing.Size(557, 434);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.dgContact);
             this.Controls.Add(this.label3);
@@ -130,6 +130,7 @@
             this.Controls.Add(this.txtfullAddress);
             this.Controls.Add(this.txtfullName);
             this.Controls.Add(this.btnAdd);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmContact";
             this.Text = "Contact information";
             ((System.ComponentModel.ISupportInitialize)(this.dgContact)).EndInit();
